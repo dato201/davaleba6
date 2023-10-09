@@ -117,7 +117,24 @@
 .footer{
     height: 239px;
     background-color: #758BFD;
+    
 }
+
+.div_ftr{
+    margin: auto;
+    padding: 75px 98px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.div_footer{
+    width: calc(160 / 1440 * 100%);
+    height: 89px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
 
 .conact1{
     color: #00CAD7;
@@ -129,7 +146,9 @@
 }
 /* შრიფტი რომელიც ფიგმაში 
 არის არ იყო ამიტომაც მსგავსი ვიპოვე */
+
 .conact2{
+    padding-top: 27px;
     color: white;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
@@ -138,18 +157,9 @@
     letter-spacing: 0.20px;
 }
 
-.div_footer1{
-    /* border: red solid 10px; */
-    /* width: calc(160 / 1440 * 100%); */
-    width: 9%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-}
-
 .div_logo{
-    width: calc(160 / 1440 * 100%);
+    /* width: calc(160 / 1440 * 100%); */
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -157,4 +167,9 @@
 .fa-brands{
     font-size: 22px;
     color: #FFFFFF;
+}
+
+.pay{
+    display: flex;
+    column-gap: 11px;
 }
